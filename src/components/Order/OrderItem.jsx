@@ -1,4 +1,4 @@
-import './orderItem.scss';
+import './OrderItem.scss';
 
 function OrderItem(props) {
   const { order, index, orderLength } = props;

@@ -1,4 +1,4 @@
-import '../Cart/Cart.scss';
+import './Cart.scss';
 
 import React, { useEffect, useState } from 'react';
 import { addProduct, clearCart, deleteProduct } from '../../actions/cartActions';

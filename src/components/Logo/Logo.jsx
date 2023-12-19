@@ -1,4 +1,4 @@
-import './logo.scss';
+import './Logo.scss';
 
 import React from 'react';
 import { motion } from 'framer-motion';

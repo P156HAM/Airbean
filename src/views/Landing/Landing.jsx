@@ -1,4 +1,4 @@
-import './landing.scss';
+import './Landing.scss';
 
 import React, { useEffect } from 'react';
 

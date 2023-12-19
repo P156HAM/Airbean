@@ -1,4 +1,4 @@
-import './popup.scss';
+import './Popoup.scss';
 
 function Popup(props) {
   const { totalAmount, children, handleCreateOrder, error, ifDiscount } = props;

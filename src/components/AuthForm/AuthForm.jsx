@@ -1,4 +1,4 @@
-import './authform.scss';
+import './AuthForm.scss';
 
 import { changeName } from '../../actions/userActions';
 import { httpAuth } from '../../utils/request';

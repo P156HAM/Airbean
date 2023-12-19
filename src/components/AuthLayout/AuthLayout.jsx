@@ -1,4 +1,4 @@
-import "./authLayout.scss"
+import "./AuthLayout.scss"
 
 function AuthLayout({ children }) {
   return (
