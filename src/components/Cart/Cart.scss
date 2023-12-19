@@ -1,0 +1,104 @@
+@use '../../styles/variables' as col;
+@use '../../styles/fonts' as font;
+@use '../../styles/mixins' as mixin;
+
+.cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 100000000000;
+
+    &__total {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item-count {
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        color: #fff;
+        background-color: col.$orange;
+        font-size: 12px;
+        font-family: font.$ptSerif;
+        line-height: 14.4px;
+        width: 25px;
+        height: 25px;
+        padding: 4px 4px;
+        border-radius: 50%;
+        font-weight: 700;
+    }
+
+    &__name {
+        font-family: font.$ptSerif;
+        font-size: 20px;
+        margin-left: 15px;
+        font-weight: 700px;
+    }
+
+    .amount {
+        font-size: 14px;
+        font-family: font.$workSans;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .horizontal-dotted-line {
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+        width: 100%;
+    }
+
+    &__add {
+        font-size: 20px;
+        font-family: font.$workSans;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    &__delete {
+        font-size: 20px;
+        font-family: font.$workSans;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+
+    &__price {
+        font-size: 16px;
+        font-family: font.$workSans;
+        font-weight: 400;
+        margin-left: 15px;
+    }
+
+    &__button {
+        background-color: col.$brown;
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 100%;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        margin-right: 20px;
+        margin-top: 16px;
+    }
+
+}

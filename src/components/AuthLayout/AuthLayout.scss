@@ -1,0 +1,10 @@
+@use '../../styles/variables' as *;
+
+.authlayout {
+  background-color: $brown;
+  background-image: url('../../assets/header.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 5rem 1rem 1rem 1em;
+}
